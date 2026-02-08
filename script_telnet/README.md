@@ -13,22 +13,8 @@ Telnet se usa solo con fines educativos. En entornos reales debe preferirse SSH.
 - Manejo seguro de credenciales mediante variables de entorno.
 - Arquitectura modular ('inventory' + 'executor')
 
-## Estructura del proyecto:
-
-my-telnet-config/
-├─ src/
-│ ├─ inventory.py # Inventario de routers y comandos
-│ └─ script_telnet.py # Ejecutor principal
-├─ .env.example # Variables de entorno de ejemplo
-├─ requirements.txt
-├─ README.md
 
 ## Instalación:
-
-Clona el repositorio:
-
-git clone https://github.com/tuusuario/my-telnet-config.git
-cd my-telnet-config
 
 Crea un entorno virtual:
 
